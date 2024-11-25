@@ -148,11 +148,7 @@ footer{
         @media(max-width:376px){
             
             /* Seccion 1*/
-            .movil{
-                flex-direction:column-reverse !important;  /* la columna de la derecha va arriba*/
-                align-items: center !important;
-                text-align: center;
-            }
+            
             
 
                 /* Seccion 2*/
@@ -205,4 +201,31 @@ footer{
             .footers{
                 flex-direction: column !important;
             }
+        }
+        
+        @media(max-width:990px){
+            .parrafo{
+                margin: 0px !important;
+            }
+            .preguntas{
+                margin: 0px !important;
+            }
+
+            .movil_s4{
+                flex-direction: column !important;
+                align-items: center !important;
+            }
+            .card{
+              
+            }
+
+        }
+        @media(max-width:770px){
+            .movil{
+                flex-direction:column-reverse !important;  /* la columna de la derecha va arriba*/
+                align-items: center !important;
+                text-align: center;
+            }
+
+            
         }
