@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segundo Parcial_ Moyano Angel</title>
+    <link href="./css/Style.css" rel="Stylesheet">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <!-- Barra de Navegacion-->
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container py-3">
+                <img src="./img/logo-bookmark.svg" alt="">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <img class="navbar-toggler-icon" src="./img/icon-hamburger.svg"></img></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto "> <!--el margen desde la izquierda en automatico lo lleva a la derecha -->
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" aria-current="page" href="#">Features</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" href="#">Pricing</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link text-dark" href="#">Contact</a>
+                  </li>
+                  <li>
+                      <button type="button" class="btn btn-danger login">Login</button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+    </header>
+
+    <main>
+
+       <!-- Seccion Bookmark Manager-->
+          <section class="py-4 mt-5">
+            <div class="container">
+              <div class="row movil gap-3" >
+
+                <!-- Primera columna-->
+                <div class="col align-self-center">
+                  <h2 class="fs-1">A Simple Bookmark Manager</h2>
+                  <p class="fs-4 fw-light">a clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites Loead instantly. Try it fot free.</p>
+                  <a href="" class="btn boton1 btn-primary p-3 shadow rounded" > get it on Chrome</a>
+                  <a href="" class=" boton2 p-3 btn shadow bg-body-tertiary rounded" > get it on Firefox</a>
+                </div>
+
+                <!--Segunda columna-->
+                <div class="col">
+                  <img src="./img/illustration-hero.svg " class="img-fluid" alt="">
+                </div>
+
+              </div>
+
+            </div>
+          </section>
+
+        <!-- Seccion Freatures    ESTA ROTA EN FLEX!!!-->
+          
+           <section class="py-4">
+            <div class="container">
+              <div class="row ">
+                <div class="col text-center movil_s2 " >
+                    <h2> Features</h2>
+                    <p class=" fs-4 parrafo">Our aim is to make ir quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.</p>
+                    <button class="btn btn_s2 mx-3">Simple Bookmarking</button>
+                    <button class="btn btn_s2 mx-3" > Speedy Searching</button>
+                    <button class="btn btn_s2 mx-3" > Easy Sharing</button>
+                </div>
+              </div>
+            </div>
+          </section>
+
+        <!-- Seccion Bookkmark one click-->
+        <section class="py-4">
+         <div class="container">
+            <div class="row movil_s3" >
+              <!-- Primera columna-->
+               <div class="col">
+                <img src="./img/illustration-features-tab-1.svg" class="img-fluid" alt="">
+               </div>
+               <!--Segunda columna -->
+               <div class="col justify-content-center align-self-center" > 
+                <h2> Bookmark in one Click</h2>
+                <p class="">Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favorite sites.</p>
+                <a href="" class="btn btn-primary btn_s3" > More info</a>
+            </div>
+
+
+            </div>
+
+         </div>
+        </section>
+        
+        <!-- Seccion download extension-->
+
+        <section class="py-4 mb-5">
+          <div class="container ">
+            <!--Primera fila-->
+            <div class="row text-center">
+              <div class="col">
+                <h2> Download the extension</h2>
+                <p> We've got more browsers in the pipeline. Please do let us jnow if you'd like us to prioritize.</p>
+              </div>
+            </div>
+
+              <!--Segunda Fila-->
+            <div class="row ">
+              <div class="col d-flex justify-content-center movil_s4 gap-3">
+
+                <!-- Chrome-->
+                <div class="card shadow-lg py-3  text-center" style="width: 18rem;">
+                  <img src="./img/logo-chrome.svg" class=" img-fluid tam_logo" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Add to Chrome</h5>
+                    <p class="card-text">Minimum version 62</p>
+                    <a href="#" class="btn btn-primary  btn_s4"> Add & Install Extension</a>
+                  </div>
+                </div>
+
+                <!-- Firefox-->
+                <div class="card shadow-lg py-3 card_2 text-center" style="width: 18rem;">
+                  <img src="./img/logo-firefox.svg" class="img-fluid tam_logo" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Add to Firefox</h5>
+                    <p class="card-text">Minimum version 55</p>
+                    <a href="#" class="btn btn-primary btn_s4"> Add & Install Extension</a>
+                  </div>
+                </div>
+
+                <!--Opera-->
+                <div class="card shadow-lg py-3 card_3 text-center" style="width: 18rem;">
+                  <img src="./img/logo-opera.svg" class="img-fluid tam_logo" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Add to Opera</h5>
+                    <p class="card-text">Minimum version 46</p>
+                    <a href="#" class="btn btn-primary btn_s4"> Add & Install Extension</a>
+                  </div>
+                </div>
+
+              </div> <!--col-->
+             </div> <!-- row-->
+
+            </div> <!--containter-->
+        </section>
+
+        <!-- Seccion Frequently Asked Questions-->
+        <section class="py-4">
+          <div class="container">
+              <!-- Primer fila-->
+            <div class="row text-center">
+                <div class="col">
+                  <h2> Frequently Asked Questions </h2>
+                  <p> Here are some of our FAQs. If you have ani other questions you'd like answere please feel free to email us.</p>
+                 </div>
+            </div>
+
+              <!--Segunda Fila-->
+            <div class="row ">
+              <div class="col preguntas movil_s5">
+                <div class="accordion" id="accordionExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed rojoh" type="button"  data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <span>What is Bookmark?</span>
+                        <img class="text-end ms-auto" src="./img/icon-arrow.svg" alt="">
+                      </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                         <span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt justo eget ultricies fringilla. Phasellus blandit ipsum quis quam ornare mattis.</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed rojoh" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <span> How can I request a ner browser?</span>
+                        <img class="text-end ms-auto" src="./img/icon-arrow.svg" alt="">
+                      </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed rojoh" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <span>Is there a mobile app?</span>
+                        <img class="text-end ms-auto" src="./img/icon-arrow.svg" alt="">
+                      </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed rojoh" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <span>What about other Chromium browsers?</span>
+                        <img class="text-end ms-auto" src="./img/icon-arrow.svg" alt="">
+                      </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <a href="" class="btn btn-primary btn_s5" > More info</a>
+              </div> <!--col-->
+              
+
+            </div> <!--row-->
+
+
+          </div> <!--containter-->
+        </section>
+
+        <!-- Seccion  Stay Up-->
+         <section class="mt-4">
+          <div class="container bg-morado py-4">
+                  <!--primer fila-->
+              <div class="row text-white">
+                  <div class="col text-center">
+                    <h4>35.000 + ALREADY JOINED</h4>
+                    <h2>Stay up-to-date-whith what we're doing</h2>
+                  </div>
+              </div> <!--row-->
+
+                  <!--segunda fila-->
+              <div class="row   " >
+                <div class="col d-flex justify-content-center gap-2 movil_s6">
+                  <input type="email" name="email" id="email"class="form-control mail" placeholder="Enter your email address" required>
+                  <button type="submit" class=" btn-danger text-white btn_s6">Contact Us</button>
+                </div>
+              </div> <!--row-->
+          </div> <!--Container-->
+         </section>
+    </main>
+
+    <footer>
+      <div class="container py-4">
+        <div class="row ">
+          <div class="col footers">
+            <img class="img-fluid" src="https://tsbsankara-bookmark-landing-page-yt.netlify.app/static/media/logo-bookmark-light.f97cc38a5ae5c6d6cacac1ebc75f0ea1.svg" alt="">
+
+            <a href="#" class="links ms-3"> FEATURES</a>
+            <a href="#" class="links ms-3"> PRICING</a>
+            <a href="#" class="links ms-3"> CONTACT</a>
+          </div>
+          <div class="col gap-2">
+            <img src="./img/icon-facebook.svg" alt="">
+            <img src="./img/icon-twitter.svg" alt="">
+          </div>
+        </div>
+
+      </div>
+
+
+    </footer>
+  
+    
+<!-- Optional JavaScript; choose one of the two! -->
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

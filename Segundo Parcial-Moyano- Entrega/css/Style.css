@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap");
+
+*{
+    margin: 0;
+    padding: 0; 
+ }
+
+ body{
+    font-size: 18px !important;
+    font-family: "Rubik", sans-serif !important;
+    font-weight: 400px,500px !important;
+
+ }
+ 
+ .nav-link:hover {
+    color:red !important;
+ }
+ 
+ 
+ .login:hover{
+     background-color: white !important;
+     color: red !important;
+     border-color: red !important;
+ }
+
+        /*  primera Seccion*/
+ .boton1:hover{
+    background-color: white !important;
+    color: blue !important;
+    border-bottom: 2;
+    border-color: blue !important;
+ }
+ .boton2:hover{
+    border-color: black !important;
+
+ }
+
+ 
+.movil{
+    display: flex;
+    justify-content: center;
+}
+
+    /* Segunda Seccion*/
+ .parrafo{
+    margin-left: 300px;
+    margin-right: 300px;
+ }
+
+
+ .btn_s2{
+    border-bottom-style: solid !important;
+    border-bottom-width: 2px !important;
+    border-bottom-color: red !important;
+ }
+ .btn_s2:hover{
+    color: red !important;
+ }
+
+
+
+    /* Tercer Seccion*/
+
+.parrafo_s3{
+    margin-right: 250px;
+}
+.movil_s3{
+        display: flex;
+        justify-content: center;
+    }
+
+
+   /* Cuarta Seccion*/
+.tam_logo{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 10px;
+    left: 70px;
+}
+.btn_s4:hover{
+    background-color: white !important;
+    color: blue !important;
+    border-color: blue !important;
+
+}
+.card_2 {
+    position: relative;
+    top: 20px;
+}
+
+.card_3 {
+    position: relative;
+    top: 50px;
+}
+
+
+    /* Quinta Seccion*/
+
+.preguntas{
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.rojo{
+    color: red !important;
+}
+
+.rojoh:hover{
+    color: red !important;
+}
+.accordion-button::after{
+    display: none;
+}
+.btn_s5{
+    margin-left:300px;
+    margin-top: 30px;
+}
+
+    /* Sexta Seccion*/
+    .bg-morado{
+        background-color:slateblue;
+    }
+
+.btn_s6:hover {
+    color: red !important;
+    background-color: white !important;
+    border-color: red !important;
+}
+
+    /* Footer*/
+footer{
+    background-color: rgb(37, 43, 70);
+    color:white !important;
+}
+.links{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+.links:hover{
+    color: red !important;
+}
+
+
+
+ /* Media Quere*/ 
+
+        @media(max-width:376px){
+            
+            /* Seccion 1*/
+            .movil{
+                flex-direction:column-reverse !important;  /* la columna de la derecha va arriba*/
+                align-items: center !important;
+                text-align: center;
+            }
+            
+
+                /* Seccion 2*/
+            .movil_s2{
+                flex-direction: column !important;
+                text-align: center !important;
+                
+            }
+            .parrafo{
+                margin: 0px !important;
+            }
+            
+                /*Seccion 3*/
+            .movil_s3{
+                flex-direction:column !important;  /* la columna de la derecha va arriba*/
+
+            }
+            .btn_s3{
+                display: none !important;
+            }
+                /*Seccion 4 */
+            .movil_s4{
+                flex-direction: column !important;
+                text-align: start !important;
+
+            }
+            .card_2{
+             left: 0 !important;
+                
+            }
+            .card_3{
+                left: 0 !important;
+            }   
+            .movil_s5{
+                flex-direction: column !important;
+                text-align: center !important;
+                margin: 0px !important;
+            }
+            .btn_s5{
+                margin-left: 0;
+            }
+            .movil_s6{
+                flex-direction: column !important;
+                align-items: center
+            }
+            .mail{
+                width: 100% !important;
+            }
+
+            .footers{
+                flex-direction: column !important;
+            }
+        }
