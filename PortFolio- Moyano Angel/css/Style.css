@@ -38,6 +38,10 @@ padding: 0px;
     border-radius: 2px !important;
     border-color: white !important;
 }
+.descarga{
+    height: 20px;
+    width: 20px;
+}
 
 .fondo{
     background-color:rosybrown;
