@@ -1,4 +1,38 @@
+*{
+margin:0px;
+padding: 0px;
+}
 
+.line{
+    background-color: white;
+    height: 3px;
+    width: 100px;
+    margin-top: 20px;
+
+}
+
+.line-b{
+    background-color: black;
+    width: 100px;
+    height: 3px;
+    margin-top: 20px;
+}
+
+.Perfil{
+    width: 300px;
+    height: 300px;
+}
+
+.parrafo{
+    width: 400px;
+}
+
+
+.img_modal{
+    width: 200px;
+    height: 200px;
+
+}
 
 .btn_cv{
     border-radius: 2px !important;
@@ -9,7 +43,32 @@
     background-color:rosybrown;
 }
 
-.links{
-    text-decoration: none !important;
-    color: black !important ;
+
+.plus{
+    opacity: 0; /* Inicialmente invisible */
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    z-index: 10;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+
+
+}
+
+.card:hover{
+    opacity:70%;
+}
+.plus:hover{
+    opacity: 1; /* Hacerlo visible */
+}
+
+.fondo_footer{
+    background-color:slategrey  ;
+}
+.redes{
+    width: 30px;
+    height: 30px;
+    margin: 5px;
 }

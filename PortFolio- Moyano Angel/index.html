@@ -40,116 +40,218 @@
 
     <main>
       <!-- Contenedor quien soy-->
-      <section class="py-2 fondo">
-        <div class="container text-center">
+      <section class="py-2 fondo text-white" >
+        <div class="container d-flex flex-column align-items-center mt-5 py-5">
           <div class="row">
-            
-            <div class="col-12 col-md-6 text-center" >
-            <img src="./img/avataaars.svg" alt="" >
+            <div class="col-12 text-center">
+              <img class="Perfil" src="./img/avataaars.svg" alt="" >      
             </div>
 
-            <div class="col-12 col-md-6 d-flex justify-content-center flex-column text-center text-md-start mt-3 mt-md-0">
-            
-              <h1 class="fw-bold"> ¿Quién soy?</h1>
-            <p>Soy un estudiante universitario de la carrera 
-              Profesorado en Computacion que rige en la <a href="http://www.exactas.unlpam.edu.ar/">Facultad
-                de Ciencias Exactas y Naturales</a> de la <a href="https://www.unlpam.edu.ar/">Universidad
-                  nacional de La Pampa</a></p>
-
-                <a href="" class="btn btn-primary w-50 align-self-center align-self-md-start" > Ver trabajos realizados</a>
+            <div class="col12 text-center ">
+              <h2 class="mt-3"><span class="fw-bold">Angel</span> Moyano </h2>
+                <div class="d-flex justify-content-center">
+                  <div class="line"></div>
+                  <svg xmlns="http://www.w3.org/2000/svg" height="32" width="36" viewBox="0 0 576 512"><!--!Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>
+                  <div class="line"></div>
+                </div>
+              <p>Soy un estudiante universitario de la carrera 
+                Profesorado en Computacion que rige en la <a href="http://www.exactas.unlpam.edu.ar/">Facultad
+                  de Ciencias Exactas y Naturales</a> de la <span class="fw-bold">Universidad
+                    nacional de La Pampa</span></p>
             </div>
-          
+            
           </div>
+         
         </div>
       </section> 
 
         <!-- Contenedor Proyectos-->
         <section class="py-4">
           <div class="container">
-            <h1 class="display-5 fw-bold text-center py-4"> Portafolio</h1>
-                <div class="row text-center">
+            <h1 class="display-5 fw-bold text-center py-4 "> Portafolio</h1>
+            <div class="d-flex justify-content-center " >
+              <div class="line-b">------------</div>
+              <svg xmlns="http://www.w3.org/2000/svg" height="32" width="36" viewBox="0 0 576 512"><!--!Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>
+              <div class="line-b">------------</div>
+            </div>
+            
+                <div class="row text-center row-gap-3">
 
-                  <article class="col-12 col-sm-6 col-lg-4 mb-2">  
-                    <!-- Lemon Pie-->
-                  <a class="links" href="https://github.com/AngelMoyano/Repositorio-Optativa/tree/ad442eb2e576d0f415aef72e6843b0999e08f0ff/Lemon%20Pie">
-                    <div class="card">
-                      <img src="./img/lemon-pie.jpeg" class="card-img-top" alt="...">
+                  <!-- Lemon Pie-->
+                  <article class="col-12 col-sm-6 col-lg-4 mb-2"> 
+          
+                  <div class="card posicion-relative"  type="button"data-bs-toggle="modal" data-bs-target="#LemonModal">
+                    <img src="./img/plus-solid.svg" alt="" class="plus">
+                    <img src="./img/lemon-pie.jpeg" class="card-img-top img-proyecto" alt="">
                       <div class="card-body text-center">
                         <h3 class="card-text"> Lemon Pie</h3>
                       </div>
                     </div>
-                  </a>
 
+                    <!-- Modal lemon-->
+                    <div class="modal fade" id="LemonModal" tabindex="-1" aria-labelledby="LemonModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">lemon-pie</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <img class="img_modal" src="./img/lemon-pie.jpeg" alt="">
+                            <p>El lemon pie es un postre que combina una base crujiente con un relleno cremoso de limón y un merengue suave y dulce. Su equilibrio entre acidez y dulzura lo convierte en un clásico irresistible.</p>
+                            <a href="https://github.com/AngelMoyano/Repositorio-Optativa/tree/ad442eb2e576d0f415aef72e6843b0999e08f0ff/Lemon%20Pie" class="btn btn-primary"> Visitar sitio</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </article> <!--Article-->
 
-                  <article class="col-12 col-sm-6 col-lg-4">   
-                        <!-- Cv Batman-->
-                    <a class="links" href="https://github.com/AngelMoyano/Repositorio-Optativa/tree/ad442eb2e576d0f415aef72e6843b0999e08f0ff/CV%20Batman">
-                      <div class="card">
-                        <img src="./img/CVBatman.png" class="card-img-top" alt="...">
+                    <!-- Cv Batman-->
+                  <article class="col-12 col-sm-6 col-lg-4"> 
+                    <div class="card posicion-relative" type="button"data-bs-toggle="modal" data-bs-target="#BatmanModal">
+                      <img src="./img/plus-solid.svg" alt="" class="plus">  
+                      <img src="./img/CVBatman.png" class="card-img-top" alt="...">
                         <div class="card-body text-center">
                           <h3 class="card-text"> Cv Batman</h3>
                         </div>
                       </div>
 
-                    </a>
-
+                    <!-- Modal Batman-->
+                    <div class="modal fade" id="BatmanModal" tabindex="-1" aria-labelledby="BatmanModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">CV Batman</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <img class="img_modal" src="./img/CVBatman.png" alt="">
+                            <p>El currículum vitae de Batman incluiría su experiencia como vigilante en Gotham, habilidades en combate cuerpo a cuerpo, estrategia, y manejo de tecnología avanzada. También destacaría su rol como CEO de Wayne Enterprises, mostrando un perfil único que combina justicia y liderazgo empresarial.</p>
+                            <a href="" class="btn btn-primary"> Visitar sitio</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </article> <!--Article-->
 
-                  <article class="col-12 col-sm-6 col-lg-4">   
-                    <!-- Suppers-->
-                    <a class="links" href="">
-                      <div class="card">
+                  <!-- Suppers-->
+                  <article class="col-12 col-sm-6 col-lg-4">  
+                      <div class="card posicion-relative" type="button"data-bs-toggle="modal" data-bs-target="#SuppersModal">
+                        <img src="./img/plus-solid.svg" alt="" class="plus">
                         <img src="./img/super.png" class="card-img-top" alt="...">
                         <div class="card-body text-center">
                           <h3 class="card-text"> Suppers
                           </h3>
                         </div>
                       </div>
-                    </a>
 
-              </article> <!--Article-->
-
-              <article class="col-12 col-sm-6 col-lg-4">   
-                <!-- Pet shop-->
-                <a  class="links" href="">
-                  <div class="card">
-                    <img src="./img/petshop.jpeg" class="card-img-top" alt="...">
-                    <div class="card-body text-center">
-                      <h3 class="card-text"> petshop</h3>
+                   <!-- Modal Supers-->
+                   <div class="modal fade" id="SuppersModal" tabindex="-1" aria-labelledby="SuppersModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Suppers</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img class="img_modal" src="./img/super.png" alt="">
+                          <p>Batman y Harley Quinn representan dos caras opuestas de Gotham: él, como el símbolo de la justicia y el orden, y ella, como un espíritu caótico ligado al crimen.  </p>
+                          <a href="" class="btn btn-primary"> Visitar sitio</a>
+                        </div>
+                      </div>
                     </div>
                   </div>
-                </a>
 
-          </article> <!--Article-->
+                 </article> <!--Article-->
 
-          <article class="col-12 col-sm-6 col-lg-4">   
-            <!-- Pizza -->
-            <a href="" class="links">
-              <div class="card">
-                <img src="./img/piza.jpeg" class="card-img-top" alt="...">
-                <div class="card-body text-center">
-                  <h3 class="card-text"> Pizza
-                  </h3>
-                </div>
-              </div>
-            </a>
+                      <!-- Pet shop-->
+                  <article class="col-12 col-sm-6 col-lg-4">
+                      <div class="card posicion-relative" type="button"data-bs-toggle="modal" data-bs-target="#PetModal">
+                        <img src="./img/plus-solid.svg" alt="" class="plus">
+                        <img src="./img/petshop.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                          <h3 class="card-text"> Pet shop
+                          </h3>
+                        </div>
+                      </div>
 
-      </article> <!--Article-->
+                  <!-- Modal Petshop-->
+                  <div class="modal fade" id="PetModal" tabindex="-1" aria-labelledby="PetModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Pet Shop</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <img class="img_modal" src="./img/petshop.jpeg" alt="">
+                          <p>Un petshop es una tienda dedicada al cuidado y bienestar de las mascotas, ofreciendo alimentos, accesorios, juguetes y servicios como peluquería o atención veterinaria. Es un espacio ideal para encontrar todo lo necesario para consentir a nuestros compañeros animales.</p>
+                          <a href="" class="btn btn-primary"> Visitar sitio</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
 
-      <article class="col-12 col-sm-6 col-lg-4">   
-        <!-- Gaming-->
-          <a href="" class="links">
-            <div class="card">
-              <img src="./img/gameshop.jpeg" class="card-img-top" alt="...">
-              <div class="card-body text-center">
-                <h3 class="card-text"> Gaming
-                </h3>
-              </div>
-            </div>
-          </a>  
+                  </article> <!--Article-->
 
-      </article> <!--Article-->
+                  <!-- Pizza-->
+                  <article class="col-12 col-sm-6 col-lg-4">
+                  <div class="card posicion-relative" type="button"data-bs-toggle="modal" data-bs-target="#PizzaModal">
+                      <img src="./img/plus-solid.svg" alt="" class="plus">
+                      <img src="./img/piza.jpeg" class="card-img-top" alt="...">
+                      <div class="card-body text-center">
+                          <h3 class="card-text"> Pizza</h3>
+                      </div>
+                    </div>
+
+                    <!-- Modal Pizza-->
+                    <div class="modal fade" id="PizzaModal" tabindex="-1" aria-labelledby="PizzaModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Pizza</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <img class="img_modal" src="./img/piza.jpeg" alt="">
+                            <p></p>
+                            <a href="" class="btn btn-primary"> Visitar sitio</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </article> <!--Article-->
+
+                  <!-- Gamming-->
+                  <article class="col-12 col-sm-6 col-lg-4">   
+                    <div class="card posicion-relative" type="button"data-bs-toggle="modal" data-bs-target="#GameModal">
+                       <img src="./img/plus-solid.svg" alt="" class="plus">
+                        <img src="./img/gameshop.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                          <h3 class="card-text"> Gamme Shop
+                          </h3>
+                        </div>
+                      </div>
+
+                    <!-- Modal GameSHop-->
+                    <div class="modal fade" id="GameModal" tabindex="-1" aria-labelledby="GameModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Game Shop</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <img class="img_modal" src="./img/gameshop.jpeg" alt="">
+                            <p>Un Gameshop es una tienda especializada en videojuegos, consolas y accesorios para gamers, ofreciendo desde los últimos lanzamientos hasta clásicos de colección. Es el lugar perfecto para encontrar productos, asesoramiento y comunidad para los amantes del gaming.</p>
+                            <a href="" class="btn btn-primary"> Visitar sitio</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </article> <!--Article-->
 
                 </div>  <!--row-->
                 
@@ -169,6 +271,11 @@
           <div class="row">
             <div class="col-12 text-center">             
               <h2> Sobre Mi</h2>
+              <div class="d-flex justify-content-center mb-3">
+                <div class="line"></div>
+                <svg xmlns="http://www.w3.org/2000/svg" height="32" width="36" viewBox="0 0 576 512"><!--!Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>
+                <div class="line"></div>
+              </div>
             </div>
           </div>   <!--Row-->
           
@@ -200,6 +307,11 @@
            <div class="container">
             <div class="container py-5">
               <h1 class="text-center mb-4 pf fw-bold">CONTACTAME</h1>
+              <div class="d-flex justify-content-center my-3 " >
+                <div class="line-b"></div>
+                <svg xmlns="http://www.w3.org/2000/svg" height="32" width="36" viewBox="0 0 576 512"><!--!Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>
+                <div class="line-b"></div>
+              </div>
               <div class="row justify-content-center">
                 <div class="col-lg-6">
                   <form>
@@ -237,8 +349,8 @@
 
 
     <footer>
-        <div class="container py-5">
-          <div class="row  gap-4">
+        <div class="container py-5 fondo_footer">
+          <div class="row row-gap-3">
 
             <!-- Columna 1-->
               <div class="col-12 col-md-4 text-center">
@@ -251,7 +363,10 @@
             <!-- Columna 2-->
             <div class="col-12 col-md-4 text-center">
               <h2> Sigamos conectados</h2>
-
+              <img src="./img/facebook-f-brands-solid.svg" class="redes">
+              <img src="./img/instagram-brands-solid.svg" alt="" class="redes">
+              <img src="./img/linkedin-in-brands-solid.svg" alt="" class="redes">
+              <a href="https://github.com/AngelMoyano/Repositorio-Optativa.git"><img src="./img/github-brands-solid.svg" alt="" class="redes"></a>
           </div>
 
            <!-- Columna 3-->
@@ -263,7 +378,7 @@
 
           </div>  <!-- row-->
   
-        </div>
+        </div> <!--container-->
     </footer>
 
     <!-- Optional JavaScript; choose one of the two! -->
