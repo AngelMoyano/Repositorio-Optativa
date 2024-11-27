@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.Barra-navegacion{
+    background-color: #222222;    
+}
+
+.seccion_Desc{
+    background-image: url(../img/img\ 1.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+    color: white;
+    padding-top: 150px;
+    padding-bottom: 150px;   
+}
+
+.envio-gratis{
+    color:#619D00 !important;
+}
+.sillas{
+    background-image: url(../img/Banner\ img.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+
+}
+
+.product{
+    text-align: end;
+}
+
+.computadoras{
+    background-image: url(../img/banner\ 1.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+}
+
+
+footer{
+    background-color: #222222;
+}
+.img-footer{
+    height: 50px;
+    width: 50px;
+}
